@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="FREE CRM application TEst Automation Suite">
+    <test name="Free CRM App Test cases">
+        <parameter name="URL" value="https://login.yahoo.com/"/>
+        <parameter name="emailId" value="test@yahoo.com"/>
+
+
+        <classes>
+
+            <class name="com.crm.qa.testcases.ContactsPageTest" />
+            <class name="com.crm.qa.testcases.HomePageTest" />
+            <class name="com.crm.qa.testcases.loginPageTest" />
+
+
+        </classes>
+
+    </test>
+
+</suite>
